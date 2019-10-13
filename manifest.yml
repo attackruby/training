@@ -1,0 +1,9 @@
+---
+applications:
+ - name: template-app
+   routes: 
+   - route: template-app.mybluemix.net
+   memory: 512M
+   disk_quota: 128M
+   instances: 1
+   buildpack: python_buildpack
